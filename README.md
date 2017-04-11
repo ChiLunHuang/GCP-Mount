@@ -4,11 +4,11 @@ The way to connecting to Cloud Storage buckets (Mount)
 ## Follow the steps from here
 >https://github.com/GoogleCloudPlatform/gcsfuse/blob/master/docs/installing.md
 
-** Install the package what you want **
+**Install the package what you want**
 
 `apt-get install python-pip`
 
-** Mount **
+**Mount**
 
 `gcloud init`
 
@@ -20,12 +20,12 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install gcsfuse
 `
-** Make new directory to your path **
+**Make new directory to your path **
 `
 sudo mkdir /mnt/gcs-bucket
 sudo chmod a+w /mnt/gcs-bucket
 `
 
-** Real time to update the data from bucket  
+**Real time to update the data from bucket  
 
 `sudo gcsfuse --implicit-dirs onead-hadoop /mnt/gcs-bucket`
