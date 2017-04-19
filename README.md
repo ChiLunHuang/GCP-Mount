@@ -23,13 +23,13 @@ sudo apt-get update
 sudo apt-get install gcsfuse
 `
 
-**Make new directory to your path **
+**Make new directory to your path**
 
 `
 sudo mkdir /mnt/gcs-bucket
 sudo chmod a+w /mnt/gcs-bucket
 `
 
-**Real time to update the data from bucket  
+**Real time to update the data from bucket**  
 
 `sudo gcsfuse --implicit-dirs onead-hadoop /mnt/gcs-bucket`
