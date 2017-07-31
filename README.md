@@ -20,6 +20,7 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 
 `
 sudo apt-get update
+
 sudo apt-get install gcsfuse
 `
 
@@ -27,6 +28,7 @@ sudo apt-get install gcsfuse
 
 `
 sudo mkdir /mnt/gcs-bucket
+
 sudo chmod a+w /mnt/gcs-bucket
 `
 
