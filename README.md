@@ -26,11 +26,9 @@ sudo apt-get install gcsfuse
 
 **Make new directory to your path**
 
-`
-sudo mkdir /mnt/gcs-bucket
+`sudo mkdir /mnt/gcs-bucket`
 
-sudo chmod a+w /mnt/gcs-bucket
-`
+`sudo chmod a+w /mnt/gcs-bucket`
 
 **Real time to update the data from bucket**  
 
